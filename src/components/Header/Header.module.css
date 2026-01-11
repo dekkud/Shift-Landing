@@ -1,0 +1,32 @@
+.header {
+	width: 100%;
+	height: 64px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #ffffff;
+	box-shadow: 0px 1px 3px 0px #0000011A, 0px 1px 2px -1px #0000011A;
+}
+
+.container {
+	width: 1536px;
+	height: 32px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.buttons{
+	width: 593px;
+	height: 20px;
+	display: flex;
+	justify-content: space-between;
+	color: #737373;
+	font-family: Inter;
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.button:hover {
+	cursor: pointer;
+}
