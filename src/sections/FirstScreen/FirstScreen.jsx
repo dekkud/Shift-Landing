@@ -14,7 +14,7 @@ const FirstScreen = () => {
 	return (
 		<>
 			<Header></Header>
-			<div className={styles.FirstScreen}>
+			<div className={styles.firstScreen}>
 				<h1>
 					<span>Соберите рабочий персонал</span>
 				</h1>
@@ -24,24 +24,26 @@ const FirstScreen = () => {
 				<h1>
 					<span className={styles.gradientText}>за 10 минут</span>
 				</h1>
-				<div className={styles.textpoints}>
-					{points.map((label) => (
-						<div key={label} className={styles.textpoint}>
-							{label}
-						</div>
-					))}
-				</div>
-				<button className={styles.trybutton}>Попробовать за 1 ₽ первый месяц</button>
-				<div className={styles.bottomInfo}>
-					<div className={styles.bottomLeftInfoText}>Самая большая база рабочих рук с рейтингом в городе.</div>
-					<div className={styles.bottomRightInfoCard}>
-						<div className={styles.bottomRightInfoCardLeft}>
+				<div className={styles.subcontainer}>
+					<div className={styles.textpoints}>
+						{points.map((label, index) => (
+							<div key={index} className={styles.textpoint}>
+								{label}
+							</div>
+						))}
+					</div>
+					<button className={styles.trybutton}>Попробовать за 1 ₽ первый месяц</button>
+					<div className={styles.bottomInfo}>
+						<div className={styles.bottomLeftInfoText}>Самая большая база рабочих рук с рейтингом в городе.</div>
+						<div className={styles.bottomRightInfoCard}>
+							<div className={styles.bottomRightInfoCardLeft}>
 								<span className={styles.whyUs}>Почему мы?</span>
 								<span className={styles.showcases}>Показатели</span>
 								<span className={styles.clients}>довольных клиентов</span>
-						</div>
-						<div className={styles.bottomRightInfoCardRight}>
-							<img src={CardSymbol} alt="" srcset="" />
+							</div>
+							<div className={styles.bottomRightInfoCardRight}>
+								<img src={CardSymbol} alt="card-symbol" />
+							</div>
 						</div>
 					</div>
 				</div>
