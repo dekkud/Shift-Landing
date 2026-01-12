@@ -4,12 +4,12 @@ import logo from '../../assets/logo.svg'
 const Header = () => {
 
 	const buttons = [
-		{ id: 1, label: "О нас" },
-		{ id: 2, label: "Клиенты" },
-		{ id: 3, label: "Кейсы" },
-		{ id: 4, label: "Отзывы" },
-		{ id: 5, label: "Спецпредложение" },
-		{ id: 6, label: "Тарифы" },
+		"О нас",
+		"Клиенты",
+		"Кейсы",
+		"Отзывы",
+		"Спецпредложение",
+		"Тарифы",
 	]
 
 	return (
@@ -17,13 +17,13 @@ const Header = () => {
 			<div className={styles.container}>
 				<img src={logo} alt="Logo" />
 				<div className={styles.buttons}>
-					{buttons.map((button) => (
+					{buttons.map((label) => (
 						<div
-							key={button.id}
+							key={label}
 							className={styles.button}
-							style={{ color: button.id === 3 ? '#2985FF' : undefined }}
+							style={{ color: label === "Кейсы" ? '#2985FF' : undefined }}
 						>
-							{button.label}
+							{label}
 						</div>
 					))}
 

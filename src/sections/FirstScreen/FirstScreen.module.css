@@ -1,0 +1,162 @@
+.FirstScreen {
+	width: 100%;
+	height: 100vh;
+	background-color: #FFFFFF;
+	background-image:
+		linear-gradient(to right, #F5F5F5 1px, transparent 1px),
+		linear-gradient(to bottom, #F5F5F5 1px, transparent 1px);
+	background-size: 50px 50px;
+	background-position: center;
+	background-repeat: repeat;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding-top: 100px
+}
+
+h1 {
+	font-family: Inter;
+	font-size: 96px;
+	font-weight: 700;
+}
+
+.gradientText {
+	background: linear-gradient(90deg, #2EE9A9, #008DF2);
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+	color: transparent;
+}
+
+.textpoints {
+	font-family: Inter;
+	font-size: 20px;
+	font-weight: 400;
+	color: #737373;
+	margin-top: 30px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.textpoint {
+	display: flex;
+	align-items: flex-start;
+	gap: 12px;
+	margin-bottom: 4px;
+	text-align: left;
+}
+
+.textpoint::before {
+	content: "";
+	width: 6px;
+	height: 6px;
+	background-color: #737373;
+	border-radius: 50%;
+	margin-top: 10px;
+	flex-shrink: 0;
+}
+
+.trybutton {
+	width: 316px;
+	height: 48px;
+	margin-top: 40px;
+	padding: 10px 20px;
+	gap: 10px;
+	font-family: Inter;
+	font-size: 16px;
+	font-weight: 700;
+	color: #FFFFFF;
+	background-color: #2985FF;
+	border: none;
+	border-radius: 12px;
+}
+
+.trybutton:hover {
+	background-color: #0F6AE2;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+.bottomInfo {
+	width: 1472px;
+	height: 131px;
+	margin-top: 100px;
+	position: relative;
+}
+
+.bottomLeftInfoText {
+	font-family: Inter;
+	font-size: 24px;
+	font-weight: 400;
+	color: #101010;
+	text-align: left;
+	height: 93px;
+	width: 300px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+
+.bottomRightInfoCard {
+	width: 333px;
+	height: 131px;
+	border: 1px solid #E5E5E5;
+	background-color: #FFFFFF;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	border-radius: 14px;
+}
+
+.bottomRightInfoCardLeft {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 20px;
+}
+
+.whyUs {
+	font-family: Inter;
+	font-size: 14px;
+	font-weight: 600;
+	color: #737373;
+}
+
+.showcases {
+	font-family: Inter;
+	font-size: 24px;
+	font-weight: 600;
+	color: #000000;
+	margin-top: 16px;
+}
+
+.clients {
+	margin-top: 6px;
+	font-family: Inter;
+	font-size: 14px;
+	color: #737373;
+	font-weight: 400;
+}
+
+.clients::before {
+	content: "1400+";
+	font-weight: 700;
+	margin-right: 4px;
+	color: #0FB981;
+}
+
+.bottomRightInfoCardRight {
+	width: 50px;
+	height: 50px;
+	right: 16px;
+	top: 16px;
+	border-radius: 25px;
+	gap: 10px;
+	background-color: #A5F4CF;
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
