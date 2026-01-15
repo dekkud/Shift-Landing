@@ -14,14 +14,10 @@ const FirstScreen = () => {
 	return (
 		<>
 			<Header></Header>
-			<div className={styles.firstScreen}>
+			<section className={styles.firstScreen}>
 				<h1>
 					<span>Соберите рабочий персонал</span>
-				</h1>
-				<h1>
 					<span>на ваш объект на завтра</span>
-				</h1>
-				<h1>
 					<span className={styles.gradientText}>за 10 минут</span>
 				</h1>
 				<div className={styles.subcontainer}>
@@ -47,7 +43,7 @@ const FirstScreen = () => {
 						</div>
 					</div>
 				</div>
-			</div>
+			</section>
 		</>
 	)
 }

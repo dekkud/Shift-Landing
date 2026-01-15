@@ -1,6 +1,6 @@
 .firstScreen {
 	width: 100%;
-	height: 100vh;
+	height: 1080px;
 	background-color: #FFFFFF;
 	background-image:
 		linear-gradient(to right, #F5F5F5 1px, transparent 1px),
@@ -15,7 +15,22 @@
 	padding-top: 100px
 }
 
-.subcontainer{
+.firstScreen {
+	&>h1 {
+		font-family: Inter;
+		font-size: 96px;
+		font-weight: 700;
+
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+
+	}
+}
+
+
+.subcontainer {
 	background: linear-gradient(180deg, #F5F5F500, #F5F5F5);
 	width: 100%;
 	height: 100%;
@@ -25,11 +40,6 @@
 	flex-direction: column;
 }
 
-h1 {
-	font-family: Inter;
-	font-size: 96px;
-	font-weight: 700;
-}
 
 .gradientText {
 	background: linear-gradient(90deg, #2EE9A9, #008DF2);
@@ -56,6 +66,9 @@ h1 {
 	gap: 12px;
 	margin-bottom: 4px;
 	text-align: left;
+	line-height: 140%;
+	display: flex;
+	text-align: center;
 }
 
 .textpoint::before {
@@ -63,7 +76,7 @@ h1 {
 	width: 6px;
 	height: 6px;
 	background-color: #737373;
-	border-radius: 50%;
+	border-radius: 100%;
 	margin-top: 10px;
 	flex-shrink: 0;
 }
@@ -107,6 +120,7 @@ h1 {
 	position: absolute;
 	left: 0;
 	bottom: 0;
+	line-height: 140%;
 }
 
 .bottomRightInfoCard {
@@ -132,6 +146,7 @@ h1 {
 	font-size: 14px;
 	font-weight: 600;
 	color: #737373;
+	line-height: 140%;
 }
 
 .showcases {
@@ -148,6 +163,7 @@ h1 {
 	font-size: 14px;
 	color: #737373;
 	font-weight: 400;
+	line-height: 140%;
 }
 
 .clients::before {
@@ -155,6 +171,7 @@ h1 {
 	font-weight: 700;
 	margin-right: 4px;
 	color: #0FB981;
+	line-height: 140%;
 }
 
 .bottomRightInfoCardRight {

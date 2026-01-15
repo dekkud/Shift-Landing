@@ -1,5 +1,6 @@
 import styles from './Problems.module.css'
-import ProblemCardSymbol from '../../assets/2.svg'
+import ProblemCardSymbol from '../../assets/2_1.svg'
+import SecondProblemCardSymbol from '../../assets/2_2.svg'
 
 const Problems = () => {
 
@@ -26,7 +27,9 @@ const Problems = () => {
 							color: index === cardProblems.length - 1 ? '#FFFFFF' : undefined
 						}}>
 							<div className={styles.problemCardSubBlock}>{label}</div>
-							<img src={ProblemCardSymbol} className={styles.ProblemCardSymbol} alt="symbol" />
+							{index === cardProblems.length - 1 ?
+								<img src={SecondProblemCardSymbol} className={styles.ProblemCardSymbol} alt="symbol" /> :
+								<img src={ProblemCardSymbol} className={styles.ProblemCardSymbol} alt="symbol" />}	
 						</div>
 					))}
 				</div>

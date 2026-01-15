@@ -13,7 +13,7 @@ const Header = () => {
 	]
 
 	return (
-		<div className={styles.header}>
+		<section className={styles.header}>
 			<div className={styles.container}>
 				<img src={logo} alt="Logo" />
 				<div className={styles.buttons}>
@@ -29,7 +29,7 @@ const Header = () => {
 
 				</div>
 			</div>
-		</div>
+		</section>
 	)
 }
 
