@@ -12,12 +12,12 @@
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	padding-top: 100px
+	padding-top: 100px;
 }
 
 .firstScreen {
 	&>h1 {
-		font-family: Inter;
+		font-family: "Inter";
 		font-size: 96px;
 		font-weight: 700;
 
@@ -50,7 +50,7 @@
 }
 
 .textpoints {
-	font-family: Inter;
+	font-family: "Inter";
 	font-size: 20px;
 	font-weight: 400;
 	color: #737373;
@@ -87,7 +87,7 @@
 	margin-top: 40px;
 	padding: 10px 20px;
 	gap: 10px;
-	font-family: Inter;
+	font-family: "Inter";
 	font-size: 16px;
 	font-weight: 700;
 	color: #FFFFFF;
@@ -110,7 +110,7 @@
 }
 
 .bottomLeftInfoText {
-	font-family: Inter;
+	font-family: "Inter";
 	font-size: 24px;
 	font-weight: 400;
 	color: #101010;
@@ -142,7 +142,7 @@
 }
 
 .whyUs {
-	font-family: Inter;
+	font-family: "Inter";
 	font-size: 14px;
 	font-weight: 600;
 	color: #737373;
@@ -150,7 +150,7 @@
 }
 
 .showcases {
-	font-family: Inter;
+	font-family: "Inter";
 	font-size: 24px;
 	font-weight: 600;
 	color: #000000;
@@ -159,7 +159,7 @@
 
 .clients {
 	margin-top: 6px;
-	font-family: Inter;
+	font-family: "Inter";
 	font-size: 14px;
 	color: #737373;
 	font-weight: 400;
