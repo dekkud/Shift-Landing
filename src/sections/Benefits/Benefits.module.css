@@ -1,8 +1,19 @@
-.benefits{
+.benefits {
 	width: 100%;
 	height: 724px;
 	background-color: #F5F5F5;
 	display: flex;
 	justify-content: center;
-	
+	padding-top: 24px;
+	padding-bottom: 80px;
+	position: relative;
 }
+
+.benefitsSub {
+	width: 1472px;
+	display: flex;
+	flex-wrap: wrap;
+	column-gap: 20px;
+	row-gap: 20px;
+}
+

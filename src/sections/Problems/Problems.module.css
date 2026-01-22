@@ -41,33 +41,3 @@
 	row-gap: 20px;
 	margin-top: 35px;
 }
-
-.problemCard {
-	background-color: #F5F5F5;
-	border-radius: 12px;
-	padding: 20px;
-	height: 200px;
-	width: 333px;
-	display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: flex-start;
-}
-
-.problemCardSubBlock {
-  width: 100%; 
-  height: auto; 
-  font-family: Inter;
-  font-size: 18px;
-	line-height: 140%;
-}
-
-.ProblemCardSymbol {
-  width: 40px;
-  height: 40px;
-  background-color: white;
-  border-radius: 50%;
-  object-fit: contain;
-  padding: 5px;
-  box-sizing: border-box;
-}

@@ -1,0 +1,29 @@
+.problemCard {
+	background-color: #F5F5F5;
+	border-radius: 12px;
+	padding: 20px;
+	height: 200px;
+	width: 333px;
+	display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.problemCardSubBlock {
+  width: 100%; 
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 16px;
+	line-height: 140%;
+}
+
+.ProblemCardSymbol {
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border-radius: 50%;
+  object-fit: contain;
+  padding: 5px;
+  box-sizing: border-box;
+}
