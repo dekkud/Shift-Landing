@@ -1,0 +1,12 @@
+.companyCard {
+	width: 278px;
+	height: 160px;
+	border-radius: 14px;
+	border: 1px #E5E5E5 solid;
+}
+
+.companyCard img {
+	width: 100%;
+	height: 100%;
+	border-radius: 14px;
+}
