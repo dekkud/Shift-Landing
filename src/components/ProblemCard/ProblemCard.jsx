@@ -1,6 +1,6 @@
 import styles from './ProblemCard.module.css'
-import ProblemCardSymbol from '../../assets/2.svg'
-import SecondProblemCardSymbol from '../../assets/1.svg'
+import ProblemCardSymbol from '@/assets/2.svg'
+import SecondProblemCardSymbol from '@/assets/1.svg'
 
 const ProblemCard = ({ cardProblems = [] }) => {
 
@@ -20,7 +20,7 @@ const ProblemCard = ({ cardProblems = [] }) => {
 				<div className={styles.problemCardSubBlock}>{formatText(label)}</div>
 				<img
 					src={index === cardProblems.length - 1 ? SecondProblemCardSymbol : ProblemCardSymbol}
-					className={styles.ProblemCardSymbol}
+					className={styles.problemCardSymbol}
 					alt="symbol"
 				/>
 			</div>

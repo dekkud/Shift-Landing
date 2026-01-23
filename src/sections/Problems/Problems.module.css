@@ -25,12 +25,15 @@
 	background-clip: text;
 	-webkit-text-fill-color: transparent;
 	color: transparent;
+	line-height: 100%;
 }
 
 .solutions {
 	font-family: "Inter";
 	font-size: 36px;
 	font-weight: 400;
+	line-height: 100%;
+	margin-top: 3px;
 }
 
 .problemCardsBlock {

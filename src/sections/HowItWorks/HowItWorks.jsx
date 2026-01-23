@@ -1,13 +1,13 @@
 import styles from './HowItWorks.module.css'
-import howItWorksStepsImage from '../../assets/png/howItWorks.png'
+import howItWorksStepsImage from '@/assets/png/howItWorks.png'
 
 const HowItWorks = () => {
 	return (
 		<section className={styles.howItWorks}>
 			<div className={styles.container}>
 				<div className={styles.header}>
-					<h1 className={styles.text1}>Как это работает?</h1>
-					<p className={styles.text2}>
+					<h1>Как это работает?</h1>
+					<p>
 						Наш сервис помогает быстро и просто собрать людей на завтра на ваш объект
 					</p>
 				</div>

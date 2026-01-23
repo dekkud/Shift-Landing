@@ -1,5 +1,5 @@
 import styles from './BenefitCard.module.css'
-import CardSymbol from '../../assets/1.svg'
+import CardSymbol from '@/assets/1.svg'
 import clsx from 'clsx';
 
 const BenefitCard = ({ cardBenefits = [] }) => {
@@ -15,11 +15,11 @@ const BenefitCard = ({ cardBenefits = [] }) => {
 					{!isActive && <div className={styles.symbol}>
 						<img src={CardSymbol} alt="CardSymbol" /></div>}
 
-					<h1 className={styles.benefitsHeader}>
+					<h1>
 						{formatText(header)}
 					</h1>
 
-					<p className={styles.benefitsDescription}>
+					<p>
 						{formatText(desc)}
 					</p>
 				</div>

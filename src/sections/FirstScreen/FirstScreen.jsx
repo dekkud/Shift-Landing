@@ -1,15 +1,9 @@
 import styles from './FirstScreen.module.css'
-import Header from '../../components/Header/Header'
-import CardSymbol from '../../assets/1.svg'
+import Header from '@/components/Header/Header'
+import CardSymbol from '@/assets/1.svg'
+import points from '@/config/textPoints'
 
 const FirstScreen = () => {
-
-	const points = [
-		'без публикации вакансий, модерации и платы за нее и усиления на сайтах объявлений;',
-		'без надежды на «выйдут - не выйдут» в разных чатах;',
-		'без собеседований 100 человек чтобы вышли 5;',
-		'без боли - сказали выйдут 10, а вышли 3.',
-	]
 
 	return (
 		<>
