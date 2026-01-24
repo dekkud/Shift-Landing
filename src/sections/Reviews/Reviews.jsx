@@ -1,5 +1,6 @@
 import ReviewCard from '@/components/ReviewCard/ReviewCard'
 import styles from './Reviews.module.css'
+import cardReview from '@/config/cardReview'
 
 const Reviews = () => {
 	return (
@@ -7,9 +8,12 @@ const Reviews = () => {
 			<div className={styles.subReviews}>
 				<h1>Отзывы</h1>
 				<div className={styles.reviewCards}>
-					<ReviewCard />
-					<ReviewCard />
-					<ReviewCard />
+					{cardReview.map((data, index) => (
+						<ReviewCard
+							data={data}
+							key={index}
+						/>
+					))}
 				</div>
 			</div>
 		</div>
