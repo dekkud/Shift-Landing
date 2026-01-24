@@ -1,4 +1,5 @@
 import Benefits from "./sections/Benefits/Benefits"
+import Cases from "./sections/Cases/Cases"
 import FirstScreen from "./sections/FirstScreen/FirstScreen"
 import HowItWorks from "./sections/HowItWorks/HowItWorks"
 import Problems from "./sections/Problems/Problems"
@@ -12,6 +13,7 @@ function App() {
       <HowItWorks />
       <Benefits />
       <TrustPartners />
+      <Cases />
     </>
   )
 }

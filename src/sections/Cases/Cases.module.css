@@ -1,0 +1,35 @@
+.cases {
+	width: 100%;
+	padding: 14px 0 80px 0;
+	background-color: #f5f5f5;
+	display: flex;
+	justify-content: center;
+}
+
+.subCases {
+	width: 1472px;
+	background-color: #FFFFFF;
+	border-radius: 14px;
+	border: 1px #E5E5E5 solid;
+	padding: 40px 40px 40px 40px;
+
+	&>h1 {
+		font-size: 48px;
+		font-family: "Inter";
+		font-weight: 600;
+		line-height: 100%;
+		letter-spacing: 0%;
+		padding-bottom: 30px;
+		background: linear-gradient(90deg, #2EE9A9 0%, #008DF2 20%);
+		-webkit-background-clip: text;
+		background-clip: text;
+		-webkit-text-fill-color: transparent;
+		color: transparent;
+	}
+}
+
+.caseList {
+	display: flex;
+	flex-direction: column;
+	gap: 60px;
+}
