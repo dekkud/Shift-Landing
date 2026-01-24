@@ -1,6 +1,6 @@
 import styles from './Benefits.module.css'
-import Marquee from '@/components/Marquee/Marquee';
-import BenefitCard from '@/components/BenefitCard/BenefitCard'
+import Marquee from '@/components/Marquee';
+import BenefitCard from '@/components/BenefitCard'
 import cardBenefits from '@/config/cardBenefits'
 
 const Benefits = () => {

@@ -1,4 +1,4 @@
-import CustomButton from '@/components/CustomButton/CustomButton'
+import CustomButton from '@/components/CustomButton'
 import styles from './Try.module.css'
 
 const Try = () => {

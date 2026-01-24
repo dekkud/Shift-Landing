@@ -1,4 +1,4 @@
-import CustomButton from '@/components/CustomButton/CustomButton'
+import CustomButton from '@/components/CustomButton'
 import styles from './Consultation.module.css'
 
 const Consultation = () => {

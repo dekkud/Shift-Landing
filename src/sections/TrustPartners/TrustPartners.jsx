@@ -1,4 +1,4 @@
-import CompanyCard from '@/components/CompanyCard/CompanyCard'
+import CompanyCard from '@/components/CompanyCard'
 import styles from './TrustPartners.module.css'
 import partners from '@/config/infoPartners';
 

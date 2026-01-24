@@ -1,4 +1,4 @@
-import ReviewCard from '@/components/ReviewCard/ReviewCard'
+import ReviewCard from '@/components/ReviewCard'
 import styles from './Reviews.module.css'
 import cardReview from '@/config/cardReview'
 

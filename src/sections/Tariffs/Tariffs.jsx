@@ -1,4 +1,4 @@
-import Footer from '@/components/Footer/Footer'
+import Footer from '@/components/Footer'
 import styles from './Tariffs.module.css'
 import TariffCard from '@/components/TariffCard'
 import tarrifs from '@/config/cardTariff'

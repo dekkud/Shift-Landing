@@ -1,5 +1,5 @@
 import styles from './Problems.module.css'
-import ProblemCard from '@/components/ProblemCard/ProblemCard'
+import ProblemCard from '@/components/ProblemCard'
 import cardProblems from '@/config/cardProblems'
 
 const Problems = () => {

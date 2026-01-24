@@ -1,13 +1,13 @@
-import Benefits from "./sections/Benefits/Benefits"
-import Cases from "./sections/Cases/Cases"
-import Consultation from "./sections/Consultation/Consultation"
-import FirstScreen from "./sections/FirstScreen/FirstScreen"
-import HowItWorks from "./sections/HowItWorks/HowItWorks"
-import Problems from "./sections/Problems/Problems"
-import Reviews from "./sections/Reviews/Reviews"
+import Benefits from "./sections/Benefits"
+import Cases from "./sections/Cases"
+import Consultation from "./sections/Consultation"
+import FirstScreen from "./sections/FirstScreen"
+import HowItWorks from "./sections/HowItWorks"
+import Problems from "./sections/Problems"
+import Reviews from "./sections/Reviews"
 import Tariffs from "./sections/Tariffs"
-import TrustPartners from "./sections/TrustPartners/TrustPartners"
-import Try from "./sections/Try/Try"
+import TrustPartners from "./sections/TrustPartners"
+import Try from "./sections/Try"
 
 function App() {
   return (

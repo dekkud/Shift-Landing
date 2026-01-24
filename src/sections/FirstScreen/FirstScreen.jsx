@@ -1,8 +1,8 @@
 import styles from './FirstScreen.module.css'
-import Header from '@/components/Header/Header'
+import Header from '@/components/Header'
 import CardSymbol from '@/assets/1.svg'
 import points from '@/config/textPoints'
-import CustomButton from '@/components/CustomButton/CustomButton'
+import CustomButton from '@/components/CustomButton'
 
 const FirstScreen = () => {
 

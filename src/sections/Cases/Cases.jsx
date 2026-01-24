@@ -1,4 +1,4 @@
-import CaseCard from '@/components/CaseCard/CaseCard'
+import CaseCard from '@/components/CaseCard'
 import styles from './Cases.module.css'
 import cardCase from '@/config/cardCase'
 
