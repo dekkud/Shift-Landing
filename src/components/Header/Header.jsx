@@ -1,26 +1,18 @@
 import styles from './Header.module.css'
 import logo from '@/assets/logo.svg'
 import burgerMenu from '@/assets/burgermenu.svg'
+import buttons from '@/config/buttonsMenu'
 
 const Header = () => {
-
-	const buttons = [
-		"О нас",
-		"Клиенты",
-		"Кейсы",
-		"Отзывы",
-		"Спецпредложение",
-		"Тарифы",
-	]
 
 	return (
 		<section className={styles.header}>
 			<div className={styles.container}>
 				<img src={logo} alt="Logo" />
 				<div className={styles.buttons}>
-					{buttons.map((label) => (
+					{buttons.map((label, index) => (
 						<div
-							key={label}
+							key={index}
 							className={styles.button}
 							style={{ color: label === "Кейсы" ? '#2985FF' : undefined }}
 						>
@@ -28,7 +20,7 @@ const Header = () => {
 						</div>
 					))}
 				</div>
-				<img src={burgerMenu} alt="menu" className={styles.burgerMenu} />
+				<img src={burgerMenu} alt="menu" className={styles.burgerMenu}/>
 			</div>
 		</section>
 	)

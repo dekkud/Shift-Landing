@@ -1,3 +1,4 @@
+import BurgerMenu from "./components/BurgerMenu/BurgerMenu"
 import Benefits from "./sections/Benefits"
 import Cases from "./sections/Cases"
 import Consultation from "./sections/Consultation"
