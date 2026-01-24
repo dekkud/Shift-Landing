@@ -2,14 +2,19 @@ import styles from './ReviewCard.module.css'
 import star from '@/assets/star.svg'
 
 const ReviewCard = ({ data, index }) => {
+
+	const { userpic, name, job, review } = data
+
 	return (
 		<div className={styles.reviewCard}>
 			<div className={styles.reviewTop}>
-				<div className={styles.userPic}></div>
+				<div className={styles.userPic}>
+					<img src={userpic} alt="" srcset="" />
+				</div>
 				<div className={styles.subUserInfo}>
 					<div className={styles.userInfo}>
-						<h1 key={index}>{data.name}</h1>
-						<span>{data.job}а</span>
+						<h1 key={index}>{name}</h1>
+						<span>{job}</span>
 					</div>
 					<div className={styles.review}>
 						<div className={styles.fiveStars}>
@@ -22,7 +27,7 @@ const ReviewCard = ({ data, index }) => {
 				</div>
 			</div>
 			<div className={styles.reviewBottom}>
-				{data.review.length > 195 ? data.review.slice(0, 192) + '...' : data.review}
+				{review.length > 195 ? review.slice(0, 192) + '...' : review}
 			</div>
 		</div>
 	)

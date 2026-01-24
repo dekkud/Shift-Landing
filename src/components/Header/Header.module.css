@@ -20,7 +20,7 @@
 	align-items: center;
 }
 
-.buttons{
+.buttons {
 	width: 593px;
 	height: 20px;
 	display: flex;
@@ -33,4 +33,28 @@
 
 .button:hover {
 	cursor: pointer;
+}
+
+.burgerMenu{
+	width: 50px;
+	height: 50px;
+	display: none;
+}
+
+@media (max-width:1591px) {
+	.header{
+		padding: 0 20px;
+	}
+	.container{
+		width: 100%;
+	}
+}
+
+@media (max-width:757px) {
+	.buttons{
+		display: none;
+	}
+	.burgerMenu{
+		display: block;
+	}
 }

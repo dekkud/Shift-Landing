@@ -19,12 +19,12 @@
 	font-family: "Inter";
 	font-size: 48px;
 	font-weight: 600;
-	background: linear-gradient(90deg, #2EE9A9 0%, #008DF2 23%);
+	background: linear-gradient(87.79deg, #2EE9A9 1.47%, #008DF2 105.22%);
+	width: fit-content;
 	-webkit-background-clip: text;
 	background-clip: text;
 	-webkit-text-fill-color: transparent;
 	color: transparent;
-	line-height: 100%;
 }
 
 .solutions {

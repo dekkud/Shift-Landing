@@ -24,7 +24,6 @@
 		flex-direction: column;
 		align-items: center;
 		text-align: center;
-
 	}
 }
 
@@ -38,11 +37,12 @@
 }
 
 .gradientText {
-	background: linear-gradient(90deg, #2EE9A9, #008DF2);
+	background: linear-gradient(87.79deg, #2EE9A9 1.47%, #008DF2 105.22%);
 	-webkit-background-clip: text;
 	background-clip: text;
 	-webkit-text-fill-color: transparent;
 	color: transparent;
+	line-height: normal;
 }
 
 .textpoints {
@@ -57,27 +57,24 @@
 }
 
 .textpoint {
-	display: flex;
-	align-items: flex-start;
-	gap: 12px;
 	margin-bottom: 4px;
-	text-align: left;
-	line-height: 140%;
-	display: flex;
-	text-align: center;
+	display: inline-block;
 }
 
 .textpoint::before {
-	content: "";
-	width: 6px;
-	height: 6px;
+	--side: 0.27em;
+	display: inline-block;
+	content: " ";
+	width: var(--side);
+	height: var(--side);
+	margin-right: 0.6em;
+	margin-bottom: 0.18em;
 	background-color: #737373;
 	border-radius: 100%;
-	margin-top: 10px;
 	flex-shrink: 0;
 }
 
-.button{
+.button {
 	display: block;
 	margin-top: 50px;
 }

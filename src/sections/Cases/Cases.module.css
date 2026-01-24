@@ -20,7 +20,8 @@
 		line-height: 100%;
 		letter-spacing: 0%;
 		padding-bottom: 30px;
-		background: linear-gradient(90deg, #2EE9A9 0%, #008DF2 20%);
+		background: linear-gradient(87.79deg, #2EE9A9 1.47%, #008DF2 105.22%);
+		width: fit-content;
 		-webkit-background-clip: text;
 		background-clip: text;
 		-webkit-text-fill-color: transparent;

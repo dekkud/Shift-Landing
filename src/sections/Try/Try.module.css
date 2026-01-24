@@ -21,10 +21,9 @@
 	&>h1 {
 		font-family: "Inter";
 		font-weight: 600;
-		line-height: 100%;
 		letter-spacing: 0%;
 		font-size: 48px;
-		background: linear-gradient(90deg, #2EE9A9 0%, #008DF2 70%);
+		background: linear-gradient(87.79deg, #2EE9A9 1.47%, #008DF2 105.22%);
 		-webkit-background-clip: text;
 		background-clip: text;
 		-webkit-text-fill-color: transparent;
@@ -38,7 +37,7 @@
 		line-height: 100%;
 		letter-spacing: 0%;
 		color: #737373;
-		width: 965px;
+		width: 985px;	
 	}
 }
 

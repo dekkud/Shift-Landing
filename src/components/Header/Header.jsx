@@ -1,5 +1,6 @@
 import styles from './Header.module.css'
 import logo from '@/assets/logo.svg'
+import burgerMenu from '@/assets/burgermenu.svg'
 
 const Header = () => {
 
@@ -26,8 +27,8 @@ const Header = () => {
 							{label}
 						</div>
 					))}
-
 				</div>
+				<img src={burgerMenu} alt="menu" className={styles.burgerMenu} />
 			</div>
 		</section>
 	)

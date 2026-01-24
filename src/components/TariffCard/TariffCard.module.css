@@ -1,0 +1,96 @@
+.tariffCard {
+	width: 477px;
+	background-color: #FFFFFF;
+	border-radius: 14px;
+	border: 1px #E5E5E5 solid;
+	color: #000000;
+	padding: 30px;
+	display: flex;
+	flex-direction: column;
+
+	&>h1 {
+		font-family: "Inter";
+		font-weight: 700;
+		font-size: 30px;
+		line-height: 110%;
+		letter-spacing: 0%;
+		text-align: center;
+	}
+
+	&>p {
+		font-family: "Inter";
+		font-weight: 400;
+		font-size: 24px;
+		line-height: 140%;
+		letter-spacing: 0%;
+		text-align: center;
+		padding-top: 10px;
+	}
+
+	&.active {
+		background-color: #2985FF;
+
+		&>h1 {
+			color: #FFFFFF;
+		}
+
+		&>p {
+			color: #FFFFFF;
+		}
+	}
+}
+
+.permissions {
+	display: flex;
+	flex-direction: column;
+	font-family: "Inter";
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 140%;
+	letter-spacing: 0%;
+	padding-top: 60px;
+	padding-bottom: 80px;
+	padding: 60px 0 80px 0;
+}
+
+.permission {
+	color: #737373;
+
+	&.active {
+		color: #FFFFFF;
+
+		&::before {
+			background-color: #FFFFFF;
+		}
+	}
+
+	&::before {
+		--side: 0.27em;
+		content: ' ';
+		width: var(--side);
+		height: var(--side);
+		background-color: #737373;
+		display: inline-block;
+		border-radius: 100%;
+		margin-right: 0.6em;
+		margin-bottom: 0.18em;
+		flex-shrink: 0;
+	}
+}
+
+.activeTariffCard {
+	background-color: #2985FF;
+	color: #FFFFFF;
+}
+
+.button {
+	width: 100%;
+	background-color: #2985FF;
+	color: #FFFFFF;
+	margin-top: auto;
+
+	&.active {
+		background-color: #FFFFFF;
+		color: #2985FF;
+	}
+}
