@@ -5,6 +5,7 @@ import HowItWorks from "./sections/HowItWorks/HowItWorks"
 import Problems from "./sections/Problems/Problems"
 import Reviews from "./sections/Reviews/Reviews"
 import TrustPartners from "./sections/TrustPartners/TrustPartners"
+import Try from "./sections/Try/Try"
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <TrustPartners />
       <Cases />
       <Reviews />
+      <Try />
     </>
   )
 }

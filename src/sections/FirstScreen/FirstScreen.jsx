@@ -2,6 +2,7 @@ import styles from './FirstScreen.module.css'
 import Header from '@/components/Header/Header'
 import CardSymbol from '@/assets/1.svg'
 import points from '@/config/textPoints'
+import CustomButton from '@/components/CustomButton/CustomButton'
 
 const FirstScreen = () => {
 
@@ -22,7 +23,7 @@ const FirstScreen = () => {
 							</div>
 						))}
 					</div>
-					<button className={styles.trybutton}>Попробовать за 1 ₽ первый месяц</button>
+					<CustomButton text='Попробовать за 1 ₽ первый месяц' className={styles.button}></CustomButton>
 					<div className={styles.bottomInfo}>
 						<div className={styles.bottomLeftInfoText}>Самая большая база рабочих рук с рейтингом в городе.</div>
 						<div className={styles.bottomRightInfoCard}>

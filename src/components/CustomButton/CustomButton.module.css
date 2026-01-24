@@ -1,0 +1,19 @@
+.customButton {
+	background-color: #2985FF;
+	font-size: 16px;
+	font-family: "Inter";
+	font-weight: 700;
+	line-height: 100%;
+	letter-spacing: 0%;
+	padding: 14.5px 20px;
+	border-radius: 12px;
+	color: #ffffff;
+	cursor: pointer;
+	border: 0px;
+}
+
+.customButton:hover {
+	background-color: #0F6AE2;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
