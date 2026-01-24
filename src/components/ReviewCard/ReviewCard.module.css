@@ -1,0 +1,86 @@
+.reviewCard {
+	width: 477px;
+	background-color: #ffffff;
+	border: 1px solid #C9C9C9;
+	padding: 20px;
+	border-radius: 14px;
+}
+
+.subUserInfo {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	flex-grow: 1;
+}
+
+.reviewTop {
+	display: flex;
+	align-items: center;
+	padding-bottom: 20px;
+}
+
+.userInfo {
+	margin-right: 17px;
+
+	&>h1 {
+		font-family: "Inter";
+		font-weight: 600;
+		font-size: 14px;
+		line-height: 100%;
+		letter-spacing: 0%;
+		padding-bottom: 4px;
+	}
+
+	&>span {
+		font-family: "Inter";
+		font-weight: 400;
+		font-size: 12px;
+		line-height: 140%;
+		letter-spacing: 0%;
+		color: #737373;
+	}
+}
+
+.review {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+
+	&>span {
+		font-family: "Inter";
+		font-weight: 400;
+		font-size: 12px;
+		line-height: 140%;
+		letter-spacing: 0%;
+		color: #737373;
+	}
+}
+
+.fiveStars {
+	display: flex;
+	gap: 5px;
+	padding-bottom: 4px;
+	;
+}
+
+.fiveStars img {
+	width: 16px;
+	height: 16px;
+}
+
+.reviewBottom {
+	font-family: "Inter";
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 140%;
+	letter-spacing: 0%;
+	color: #737373;
+}
+
+.userPic {
+	background-color: #D9D9D9;
+	width: 30px;
+	height: 30px;
+	border-radius: 100%;
+	margin-right: 8px;
+}
