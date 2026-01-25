@@ -5,21 +5,19 @@ const HowItWorks = () => {
 	return (
 		<section className={styles.howItWorks}>
 			<div className={styles.container}>
+
 				<div className={styles.header}>
 					<h1>Как это работает?</h1>
-					<p>
-						Наш сервис помогает быстро и просто собрать людей на завтра на ваш объект
-					</p>
+					<p>Наш сервис помогает быстро и просто собрать людей на завтра на ваш объект</p>
 				</div>
 
 				<div className={styles.subStepsContainer}>
 					<div className={styles.stepsContainer}></div>
-					<img
-						src={howItWorksStepsImage}
-						alt="steps"
-						className={styles.stepsImg}
-					/>
+					<div className={styles.imgContainer}>
+						<img src={howItWorksStepsImage} alt="steps" className={styles.stepsImg} />
+					</div>
 				</div>
+
 			</div>
 		</section>
 

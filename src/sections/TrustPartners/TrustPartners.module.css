@@ -35,3 +35,19 @@
 	gap: 20px;
 	padding-top: 30px;
 }
+
+.companyCarda {
+	width: 256px;
+}
+
+@media (max-width:1591px) {
+	.subTrustPartners {
+		width: 1079px;
+		gap: 10px;
+	}
+
+	.cImgs {
+		gap: 11px;
+	}
+
+}

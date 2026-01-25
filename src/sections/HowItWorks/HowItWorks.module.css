@@ -32,10 +32,11 @@
 	margin-top: 40px;
 	display: flex;
 	gap: 20px;
+	height: 329px;
 }
 
 .stepsContainer,
-.stepsImg {
+.imgContainer {
 	width: 726px;
 	height: 329px;
 	background: #FFFFFF;
@@ -43,7 +44,29 @@
 	border-radius: 14px;
 }
 
-.stepsImg {
+.imgContainer{
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	padding: 30px;
-	object-fit: contain;
+	height: 100%;
+
+}
+
+.imgContainer img{
+	width: 100%;
+	object-fit: cover;
+}
+
+@media (max-width:1591px) {
+	.container{
+		width: 1079px;
+	}
+
+	.imgContainer{
+		width: 376px;
+		height: 100%;
+		padding: 15px;
+	}
+
 }

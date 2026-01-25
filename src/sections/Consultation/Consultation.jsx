@@ -10,47 +10,44 @@ const Consultation = () => {
 					<p>Оставьте заявку — расскажем<br />
 						о возможностях для крупных объёмов.</p>
 				</div>
-				<div className={styles.consultationFormApply}>
-					<form>
-						<label htmlFor="user-name" className={styles.label}>Электронная почта</label>
+				<form className={styles.consultationFormApply}>
+					<label htmlFor="user-name" className={styles.label}>Электронная почта</label>
+					<input
+						id="user-name"
+						type="text"
+						placeholder="Алексей"
+						className={styles.input}
+						required
+					/>
+					<label htmlFor="user-number" className={styles.label}>Телефон</label>
+					<input
+						id="user-number"
+						type="tel"
+						placeholder="+7 (999) 000-00-00"
+						className={styles.input}
+						required
+					/>
+					<label htmlFor="user-text" className={styles.label}>Сообщение</label>
+					<textarea
+						id="user-text"
+						type="text"
+						placeholder="Мне нужна помощь"
+						className={styles.textarea}
+						required
+					/>
+					<div className={styles.checkboxWrapper}>
 						<input
-							id="user-name"
-							type="text"
-							placeholder="Алексей"
-							className={styles.input}
+							id="agreement"
+							type="checkbox"
+							className={styles.checkbox}
 							required
 						/>
-
-						<label htmlFor="user-number" className={styles.label}>Телефон</label>
-						<input
-							id="user-number"
-							type="tel"
-							placeholder="+7 (999) 000-00-00"
-							className={styles.input}
-							required
-						/>
-						<label htmlFor="user-text" className={styles.label}>Сообщение</label>
-						<textarea
-							id="user-text"
-							type="text"
-							placeholder="Мне нужна помощь"
-							className={styles.textarea}
-							required
-						/>
-						<div className={styles.checkboxWrapper}>
-							<input
-								id="agreement"
-								type="checkbox"
-								className={styles.checkbox}
-								required
-							/>
-							<label htmlFor="agreement" className={styles.checkboxLabel}>
-								Согласен на обработку
-							</label>
-						</div>
-						<CustomButton text="Отправить заявку" className={styles.button} />
-					</form>
-				</div>
+						<label htmlFor="agreement" className={styles.checkboxLabel}>
+							Согласен на обработку
+						</label>
+					</div>
+					<CustomButton className={styles.button}>Отправить заявку</CustomButton>
+				</form>
 			</div>
 		</div>
 	)

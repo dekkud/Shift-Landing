@@ -1,4 +1,4 @@
-import CustomButton from '../CustomButton/CustomButton'
+import CustomButton from '../CustomButton'
 import styles from './TariffCard.module.css'
 import clsx from 'clsx'
 
@@ -15,7 +15,7 @@ const TariffCard = ({ data }) => {
 					<div className={clsx(styles.permission, isActive && styles.active)} key={index}>{perm}</div>
 				))}
 			</div>
-			<CustomButton text='Приобрести тариф' className={clsx(styles.button, isActive && styles.active)} />
+			<CustomButton className={clsx(styles.button, isActive && styles.active)}>Приобрести тариф</CustomButton>
 		</div>
 	)
 }

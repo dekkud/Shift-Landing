@@ -13,7 +13,7 @@ const TrustPartners = () => {
 						<h2>{partner.title}</h2>
 						<div className={styles.cImgs}>
 							{partner.images.map((img, imgIndex) => (
-								<CompanyCard key={imgIndex} image={img} />
+								<CompanyCard key={imgIndex} image={img}/>
 							))}
 						</div>
 					</div>

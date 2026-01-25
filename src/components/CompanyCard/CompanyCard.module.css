@@ -10,3 +10,12 @@
 	height: 100%;
 	border-radius: 14px;
 }
+
+@media (max-width:1591px) {
+	.companyCard {
+		width: 207px;
+		height: 160px;
+	}
+
+
+}

@@ -16,3 +16,10 @@
 	row-gap: 20px;
 }
 
+@media (max-width:1591px) {
+	.benefitsSub{
+		width: 1079px;
+		padding: 10px 0;
+		gap: 10px
+	}
+}

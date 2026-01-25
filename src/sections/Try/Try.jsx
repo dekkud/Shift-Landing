@@ -13,7 +13,7 @@ const Try = () => {
 					</p>
 				</div>
 
-				<CustomButton text='Получить доступ за 1 ₽' className={styles.button} />
+				<CustomButton className={styles.button}>Получить доступ за 1 ₽</CustomButton>
 			</div>
 		</div>
 	)

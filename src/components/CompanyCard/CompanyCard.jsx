@@ -1,9 +1,9 @@
 import styles from './CompanyCard.module.css'
 
-const CompanyCard = ({ image }) => {
+const CompanyCard = ({ image, ...data }) => {
 	return (
-		<div className={styles.companyCard}>
-			<img src={image} alt="companyCard"/>
+		<div className={styles.companyCard} {...data}>
+			<img src={image} alt="companyCard" />
 		</div>
 	)
 }

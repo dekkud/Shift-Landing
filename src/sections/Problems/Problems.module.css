@@ -42,3 +42,10 @@
 	row-gap: 20px;
 	margin-top: 35px;
 }
+
+@media (max-width:1591px) {
+	.container{
+		width: 1079px;
+		padding: 20px 0 20px 20px;
+	}
+}

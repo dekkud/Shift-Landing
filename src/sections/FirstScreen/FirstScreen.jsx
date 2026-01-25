@@ -11,9 +11,15 @@ const FirstScreen = () => {
 			<Header></Header>
 			<section className={styles.firstScreen}>
 				<h1>
-					<span>Соберите рабочий персонал</span>
-					<span>на ваш объект на завтра</span>
+
+					<span className={styles.mobile}>Рабочий персонал</span>
+					<span className={styles.mobile}>на завтра</span>
+
+					<span className={styles.pc}>Соберите рабочий персонал</span>
+					<span className={styles.pc}>на ваш объект на завтра</span>
+
 					<span className={styles.gradientText}>за 10 минут</span>
+
 				</h1>
 				<div className={styles.subcontainer}>
 					<div className={styles.textpoints}>
@@ -23,7 +29,12 @@ const FirstScreen = () => {
 							</div>
 						))}
 					</div>
-					<CustomButton text='Попробовать за 1 ₽ первый месяц' className={styles.button}></CustomButton>
+
+					<CustomButton className={styles.button}>
+						Попробовать за 1 ₽
+						<span className={styles.pc}> первый месяц</span>
+					</CustomButton>
+
 					<div className={styles.bottomInfo}>
 						<div className={styles.bottomLeftInfoText}>Самая большая база рабочих рук с рейтингом в городе.</div>
 						<div className={styles.bottomRightInfoCard}>
@@ -37,6 +48,7 @@ const FirstScreen = () => {
 							</div>
 						</div>
 					</div>
+
 				</div>
 			</section>
 		</>
