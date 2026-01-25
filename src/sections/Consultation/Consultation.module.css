@@ -206,7 +206,7 @@ input,
 		width: 800px;
 	}
 
-		.consultationText {
+	.consultationText {
 
 		&>h1 {
 			font-size: 32px;
@@ -221,5 +221,28 @@ input,
 	.consultationFormApply,
 	.consultationText {
 		width: 380px;
+	}
+}
+
+@media (max-width:800px) {
+	.consultationForm {
+		width: 700px;
+	}
+
+	.consultationText {
+
+		&>h1 {
+			font-size: 32px;
+		}
+
+		&>p {
+			font-size: 15px;
+			padding-top: 30px;
+		}
+	}
+
+	.consultationFormApply,
+	.consultationText {
+		width: 330px;
 	}
 }

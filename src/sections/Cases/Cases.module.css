@@ -58,3 +58,10 @@
 		}
 	}
 }
+
+
+@media (max-width:800px) {
+	.subCases {
+		width: 700px;
+	}
+}

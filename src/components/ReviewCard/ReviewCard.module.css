@@ -119,3 +119,9 @@
 		width: 389px;
 	}
 }
+
+@media (max-width:800px) {
+	.reviewCard {
+		width: 340px;
+	}
+}

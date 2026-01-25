@@ -69,3 +69,13 @@
 		width: 800px;
 	}
 }
+
+@media (max-width:800px) {
+	.subTrustPartners {
+		width: 700px;
+	}
+
+	.cImgs {
+		justify-content: left;
+	}
+}

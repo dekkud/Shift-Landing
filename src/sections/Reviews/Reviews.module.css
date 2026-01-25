@@ -36,3 +36,9 @@
 		width: 800px;
 	}
 }
+
+@media (max-width:800px) {
+	.reviewCards {
+		width: 700px;
+	}
+}

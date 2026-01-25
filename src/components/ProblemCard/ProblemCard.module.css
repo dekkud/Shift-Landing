@@ -47,3 +47,13 @@
     font-size: 17px;
   }
 }
+
+@media (max-width:800px) {
+  .problemCard {
+    width: 319px;
+  }
+
+  .problemCardSubBlock {
+    font-size: 16px;
+  }
+}

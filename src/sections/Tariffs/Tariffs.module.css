@@ -50,3 +50,9 @@
 		width: 800px;
 	}
 }
+
+@media (max-width:800px) {
+	.tarrifsCards {
+		width: 700px;
+	}
+}

@@ -24,3 +24,10 @@
 		height: 160px;
 	}
 }
+
+@media (max-width:800px) {
+	.companyCard {
+		width: 220px;
+	}
+
+}
