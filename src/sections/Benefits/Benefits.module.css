@@ -20,6 +20,16 @@
 	.benefitsSub{
 		width: 1079px;
 		padding: 10px 0;
-		gap: 10px
+		gap: 10px;
+	}
+}
+
+@media (max-width:1090px) {
+	.benefitsSub{
+		width: 900px;
+		gap: 20px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
 	}
 }

@@ -38,3 +38,9 @@
 		width: 1079px;
 	}
 }
+
+@media (max-width:1090px) {
+	.tarrifsCards {
+		width: 900px;
+	}
+}

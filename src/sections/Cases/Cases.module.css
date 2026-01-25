@@ -40,3 +40,9 @@
 		width: 1079px;
 	}
 }
+
+@media (max-width:1090px) {
+	.subCases{
+		width: 900px;
+	}
+}

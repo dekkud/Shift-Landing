@@ -20,5 +20,13 @@
 
 .reviewCards {
 	display: flex;
-	gap: 20px
+	gap: 20px;
+	flex-wrap: wrap;
+}
+
+@media (max-width:1090px) {
+	.reviewCards {
+		width: 900px;
+		justify-content: space-evenly;
+	}
 }

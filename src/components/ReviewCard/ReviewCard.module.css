@@ -108,3 +108,9 @@
 	}
 
 }
+
+@media (max-width:1090px) {
+	.reviewCards {
+		width: 257px;
+	}
+}

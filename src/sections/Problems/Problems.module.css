@@ -44,8 +44,20 @@
 }
 
 @media (max-width:1591px) {
-	.container{
+	.container {
 		width: 1079px;
 		padding: 20px 0 20px 20px;
+	}
+}
+
+@media (max-width:1090px) {
+	.container {
+		width: 900px;
+		padding: 20px 20px 20px 20px;
+	}
+
+	.problemCardsBlock {
+		display: flex;
+		justify-content: space-between;
 	}
 }

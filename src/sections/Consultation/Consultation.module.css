@@ -162,7 +162,7 @@ input,
 	.consultationText {
 
 		&>h1 {
-			font-size: 30px;
+			font-size: 40px;
 		}
 
 		&>p {
@@ -176,4 +176,28 @@ input,
 		width: 511px;
 	}
 
+}
+
+@media (max-width:1090px) {
+	.consultationForm {
+		width: 900px;
+	}
+
+	.consultationText {
+
+		&>h1 {
+			font-size: 34px;
+		}
+
+		&>p {
+			font-size: 20px;
+			padding-top: 30px;
+		}
+	}
+
+
+	.consultationFormApply,
+	.consultationText {
+		width: 450px;
+	}
 }

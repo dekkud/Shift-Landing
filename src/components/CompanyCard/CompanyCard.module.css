@@ -16,6 +16,11 @@
 		width: 207px;
 		height: 160px;
 	}
+}
 
-
+@media (max-width:1090px) {
+	.companyCard {
+		width: 257px;
+		height: 160px;
+	}
 }

@@ -70,3 +70,9 @@
 	}
 
 }
+
+@media (max-width:1090px) {
+	.container{
+		width: 900px;
+	}
+}

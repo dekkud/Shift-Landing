@@ -51,3 +51,15 @@
 	}
 
 }
+
+@media (max-width:1090px) {
+	.subTrustPartners {
+		width: 900px;
+	}
+
+	.cImgs {
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+	}
+}

@@ -164,7 +164,7 @@
 	display: none;
 }
 
-.button{
+.button {
 	margin-top: 50px;
 }
 
@@ -190,12 +190,12 @@
 
 	.bottomInfo {
 		width: 1079px;
-		height: 131px;
-		margin-top: 100px;
-		position: relative;
-		margin-bottom: 80px;
-		display: flex;
-		justify-content: space-between;
+	}
+}
+
+@media (max-width:1090px) {
+	.bottomInfo {
+		width: 900px;
 	}
 }
 
@@ -234,11 +234,13 @@
 		display: none;
 	}
 
-	.button{
+	.button {
 		width: 80%;
 		font-size: 16px;
 		font-weight: 700;
 		line-height: 100%;
 	}
+
+
 
 }
