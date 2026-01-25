@@ -44,3 +44,9 @@
 		width: 900px;
 	}
 }
+
+@media (max-width:920px) {
+	.tarrifsCards {
+		width: 800px;
+	}
+}

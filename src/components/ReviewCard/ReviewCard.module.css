@@ -106,11 +106,16 @@
 	.pc{
 		display: none;
 	}
-
 }
 
 @media (max-width:1090px) {
-	.reviewCards {
-		width: 257px;
+	.reviewCard {
+		width: 440px;
+	}
+}
+
+@media (max-width:920px) {
+	.reviewCard {
+		width: 389px;
 	}
 }

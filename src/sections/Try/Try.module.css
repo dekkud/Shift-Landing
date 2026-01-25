@@ -71,4 +71,32 @@
 	.contentContainer {
 		width: 900px;
 	}
+
+	.textWrapper {
+
+		&>h1 {
+			font-size: 30px;
+		}
+
+		&>p {
+			font-size: 18px;
+		}
+	}
+}
+
+@media (max-width:920px) {
+	.contentContainer {
+		width: 800px;
+	}
+
+	.textWrapper {
+
+		&>h1 {
+			font-size: 27px;
+		}
+
+		&>p {
+			font-size: 16px;
+		}
+	}
 }

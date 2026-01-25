@@ -63,3 +63,9 @@
 		justify-content: space-around;
 	}
 }
+
+@media (max-width:920px) {
+	.subTrustPartners {
+		width: 800px;
+	}
+}

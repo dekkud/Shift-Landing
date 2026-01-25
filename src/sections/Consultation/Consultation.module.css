@@ -195,9 +195,31 @@ input,
 		}
 	}
 
-
 	.consultationFormApply,
 	.consultationText {
 		width: 450px;
+	}
+}
+
+@media (max-width:920px) {
+	.consultationForm {
+		width: 800px;
+	}
+
+		.consultationText {
+
+		&>h1 {
+			font-size: 32px;
+		}
+
+		&>p {
+			font-size: 18px;
+			padding-top: 30px;
+		}
+	}
+
+	.consultationFormApply,
+	.consultationText {
+		width: 380px;
 	}
 }

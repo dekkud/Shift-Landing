@@ -30,3 +30,9 @@
 		justify-content: space-evenly;
 	}
 }
+
+@media (max-width:920px) {
+	.reviewCards {
+		width: 800px;
+	}
+}

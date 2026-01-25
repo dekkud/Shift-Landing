@@ -143,3 +143,30 @@
 		}
 	}
 }
+
+@media (max-width:920px) {
+	.tarrifsCards {
+		width: 800px;
+	}
+
+	.tariffCard {
+		width: 477px;
+
+		&>h1 {
+			font-size: 19px;
+		}
+
+		&>p {
+			font-size: 13px;
+		}
+
+		.permissions {
+			font-size: 15px;
+			padding: 30px 0 20px 0;
+		}
+	}
+	
+	.button{
+		font-size: 15px;
+	}
+}

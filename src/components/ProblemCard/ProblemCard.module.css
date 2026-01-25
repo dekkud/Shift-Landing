@@ -1,21 +1,21 @@
 .problemCard {
-	background-color: #F5F5F5;
-	border-radius: 12px;
-	padding: 20px;
-	height: 200px;
-	width: 333px;
-	display: flex;
+  background-color: #F5F5F5;
+  border-radius: 12px;
+  padding: 20px;
+  height: 200px;
+  width: 333px;
+  display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
 }
 
 .problemCardSubBlock {
-  width: 100%; 
+  width: 100%;
   font-family: "Inter";
   font-weight: 400;
   font-size: 16px;
-	line-height: 140%;
+  line-height: 140%;
 }
 
 .problemCardSymbol {
@@ -26,4 +26,24 @@
   object-fit: contain;
   padding: 5px;
   box-sizing: border-box;
+}
+
+@media (max-width:1090px) {
+  .problemCard {
+    width: 415px;
+  }
+
+  .problemCardSubBlock {
+    font-size: 22px;
+  }
+}
+
+@media (max-width:920px) {
+  .problemCard {
+    width: 369px;
+  }
+
+  .problemCardSubBlock {
+    font-size: 17px;
+  }
 }

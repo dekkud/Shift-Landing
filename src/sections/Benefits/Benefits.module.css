@@ -30,6 +30,14 @@
 		gap: 20px;
 		display: flex;
 		align-items: center;
-		justify-content: center;
+		justify-content: space-between;
+	}
+}
+
+@media (max-width:920px) {
+	.benefitsSub{
+		width: 800px;
+		display: flex;
+		justify-content: space-around;
 	}
 }
