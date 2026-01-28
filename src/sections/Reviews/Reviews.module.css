@@ -42,3 +42,16 @@
 		width: 700px;
 	}
 }
+
+@media (max-width:800px) {
+	.reviewCards {
+		width: 450px;
+	}
+
+	.subReviews {
+
+		&>h1 {
+			text-align: center;
+		}
+	}
+}

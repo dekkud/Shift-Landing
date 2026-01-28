@@ -246,3 +246,17 @@ input,
 		width: 330px;
 	}
 }
+
+@media (max-width:756px) {
+
+	.consultationForm {
+		width: 450px;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.consultationText{
+		padding-bottom: 30px;
+	}
+}

@@ -236,7 +236,7 @@
 }
 
 
-@media (max-width:660px) {
+@media (max-width:756px) {
 	.mobile {
 		display: block;
 	}
@@ -250,8 +250,9 @@
 	}
 
 	.textpoints {
-		font-size: 18px;
+		font-size: 15px;
 		text-align: center;
+		width: 350px;
 	}
 
 	.pc {
@@ -261,13 +262,11 @@
 	.button {
 		width: 60%;
 		font-size: 16px;
+		margin-bottom: 160px;
 	}
 
 	.bottomInfo {
-		width: 550px;
-		display: flex;
-		align-items: center;
-		justify-content: space-between;
+		display: none;
 	}
 
 	.bottomLeftInfoText {

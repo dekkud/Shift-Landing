@@ -123,3 +123,10 @@
 	}
 
 }
+
+@media (max-width:756px) {
+	/* temporary decision */
+	.contentContainer {
+		display: none;
+	}
+}

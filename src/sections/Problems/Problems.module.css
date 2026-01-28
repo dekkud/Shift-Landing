@@ -66,10 +66,29 @@
 	.container {
 		width: 800px;
 	}
-} 
+}
 
 @media (max-width:800px) {
 	.container {
 		width: 700px;
 	}
-} 
+}
+
+@media (max-width:756px) {
+	.container {
+		width: 450px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+	}
+
+	.problemCardsBlock {
+		align-items: center;
+		justify-content: center;
+	}
+
+	.solutions{
+		text-align: center;
+	}
+}

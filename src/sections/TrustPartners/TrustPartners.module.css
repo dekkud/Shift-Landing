@@ -79,3 +79,23 @@
 		justify-content: left;
 	}
 }
+
+@media (max-width:756px) {
+	.subTrustPartners {
+		&>h1 {
+			text-align: center;
+			font-size: 36px;
+		}
+	}
+
+	.partnersLine {
+		&>h2 {
+			text-align: center;
+			font-size: 23px;
+		}
+	}
+
+	.cImgs {
+		justify-content: center;
+	}
+}

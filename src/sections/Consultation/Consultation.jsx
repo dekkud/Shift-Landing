@@ -11,7 +11,7 @@ const Consultation = () => {
 						о возможностях для крупных объёмов.</p>
 				</div>
 				<form className={styles.consultationFormApply}>
-					<label htmlFor="user-name" className={styles.label}>Электронная почта</label>
+					<label htmlFor="user-name" className={styles.label}>Имя</label>
 					<input
 						id="user-name"
 						type="text"
