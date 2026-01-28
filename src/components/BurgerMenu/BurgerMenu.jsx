@@ -11,7 +11,6 @@ const BurgerMenu = () => {
 					<div className={styles.button} key={index} style={{ color: button === "Кейсы" ? '#2985FF' : undefined }}>{button}</div>
 				))}
 			</div>
-
 		</div>
 	)
 }

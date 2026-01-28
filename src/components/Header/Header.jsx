@@ -1,9 +1,30 @@
 import styles from './Header.module.css'
 import logo from '@/assets/logo.svg'
-import burgerMenu from '@/assets/burgermenu.svg'
+import burgerMenuSvg from '@/assets/burgermenu.svg'
+import BurgerMenu from '../BurgerMenu/BurgerMenu'
 import buttons from '@/config/buttonsMenu'
+import { useState, useEffect } from 'react'
 
 const Header = () => {
+
+	const [menuVisible, setMenuVisible] = useState(false)
+
+	useEffect(() => {
+		if (menuVisible) {
+			document.body.style.overflow = 'hidden'
+		} else {
+			document.body.style.overflow = ''
+		}
+
+		// Чистим за собой (на случай удаления компонента)
+		return () => {
+			document.body.style.overflow = ''
+		}
+	}, [menuVisible])
+
+	const toggleMenu = () => (
+		setMenuVisible(!menuVisible)
+	)
 
 	return (
 		<section className={styles.header}>
@@ -20,7 +41,13 @@ const Header = () => {
 						</div>
 					))}
 				</div>
-				<img src={burgerMenu} alt="menu" className={styles.burgerMenu}/>
+				<img src={burgerMenuSvg} alt="menu" className={styles.burgerMenu} onClick={toggleMenu} />
+				{menuVisible && (
+					<>
+						<div className={styles.overlay} onClick={toggleMenu}></div>
+						<BurgerMenu />
+					</>
+				)}
 			</div>
 		</section>
 	)
