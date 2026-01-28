@@ -170,7 +170,6 @@
 
 @media (max-width:756px) {
 	.tarrifsCards {
-		width: 400px;
 		height: 100%;
 		align-items: center;
 		justify-content: center;
@@ -179,7 +178,7 @@
 	}
 
 	.tariffCard {
-		width: 450px;
+		width: 100%;
 
 		&>h1 {
 			font-size: 32px;
