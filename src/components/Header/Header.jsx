@@ -4,6 +4,7 @@ import burgerMenuSvg from '@/assets/burgermenu.svg'
 import BurgerMenu from '../BurgerMenu/BurgerMenu'
 import buttons from '@/config/buttonsMenu'
 import { useState, useEffect } from 'react'
+import clsx from 'clsx'
 
 const Header = () => {
 
@@ -16,7 +17,6 @@ const Header = () => {
 			document.body.style.overflow = ''
 		}
 
-		// Чистим за собой (на случай удаления компонента)
 		return () => {
 			document.body.style.overflow = ''
 		}
@@ -44,7 +44,7 @@ const Header = () => {
 				<img src={burgerMenuSvg} alt="menu" className={styles.burgerMenu} onClick={toggleMenu} />
 				{menuVisible && (
 					<>
-						<div className={styles.overlay} onClick={toggleMenu}></div>
+						<div className={clsx(styles.overlay)} onClick={toggleMenu}></div>
 						<BurgerMenu />
 					</>
 				)}
