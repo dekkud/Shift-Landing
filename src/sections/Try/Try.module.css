@@ -125,8 +125,21 @@
 }
 
 @media (max-width:756px) {
-	/* temporary decision */
+
 	.contentContainer {
-		display: none;
+		width: 350px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+
+	}
+
+	.textWrapper {
+		padding-bottom: 50px;
+
+		&>p {
+			font-size: 14px;
+		}
 	}
 }
