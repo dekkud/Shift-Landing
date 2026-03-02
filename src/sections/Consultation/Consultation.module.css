@@ -261,6 +261,7 @@ input,
 
 		&>p {
 			font-size: 9px;
+			width: 100%;
 		}
 	}
 }
